@@ -1,0 +1,85 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  folders:
+
+  - title: Android
+    output: web
+    folderitems:
+
+    - title: Setup Android SDK
+      url: /setup_android_sdk.html
+      output: web
+
+  - title: Angular 2
+    output: web
+    folderitems:
+
+    - title: Create a simple angular 2 app
+      url: /create_your_first_angular_2_app.html
+      output: web
+
+  - title: Ionic 2
+    output: web
+    folderitems:
+
+    - title: Create a simple Ionic 2 app
+      url: /create_a_simple_ionic_2_app.html
+      output: web
+
+  - title: Node.js
+    output: web
+    folderitems:
+
+    - title: Setup Node.js
+      url: /setup_nodejs.html
+      output: web
+
+    - title: Setup watchman
+      url: /setup_watchman.html
+      output: web
+
+  - title: Ruby
+    output: web
+    folderitems:
+
+    - title: Setup Ruby
+      url: /setup_ruby.html
+      output: web
+
+  - title: Sublime
+    output: web
+    folderitems:
+
+    - title: Setup Sublime
+      url: /setup_sublime.html
+      output: web
+
+    - title: Make Sublime a ruby editor
+      url: /make_sublime_a_ruby_editor.html
+      output: web
+
+  - title: Vim
+    output: web
+    folderitems:
+
+    - title: Setup Vim
+      url: /setup_vim.html
+      output: web
+
+    - title: Make Vim a ruby editor
+      url: /make_vim_a_ruby_editor.html
+      output: web
+
+    - title: Setup nerdtree
+      url: /setup_nerdtree.html
+      output: web
+
+  - title: Virtual Box
+    output: web
+    folderitems:
+
+    - title: Setup Sublime
+      url: /setup_sublime.html
+      output: web
