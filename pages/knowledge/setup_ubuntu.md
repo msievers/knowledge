@@ -12,6 +12,12 @@ For the usage within VirtualBox, you should consider using a Ubuntu derivate whi
 
 Another option would be to use the *server* version of Ubuntu, but having X11 around is usefull in some cases, e.g. for running the Android SDK manager interactivly.
 
+### TL;DR
+
+* Create a virtual machine for 64bit Linux with >= 2 GB RAM
+* Install the latest **Lubuntu** 64bit
+* Follow the [instructions](#install-guest-additions) to install guest additions
+
 ### Prerequisites
 
 * VirtualBox >= 5.1
@@ -34,5 +40,7 @@ Go to the [download page](https://help.ubuntu.com/community/Lubuntu/GetLubuntu) 
 {% include image.html file="setup_ubuntu/setup_lubuntu_011.png" alt="Choose 'Install Lubuntu'" caption="Choose 'Install Lubuntu'" %}
 
 ***to be continued***
+
+### Install guest additions
 
 {% include links.html %}

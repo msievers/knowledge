@@ -9,7 +9,11 @@ folder: knowledge
 
 ## Mac
 
-## Ubuntu LTS
+## Ubuntu
+
+### Prerequisites
+
+* [Ubuntu](setup_ubuntu.html)
 
 ### Download the SDK
 
