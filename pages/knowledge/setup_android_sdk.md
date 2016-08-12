@@ -90,7 +90,7 @@ Assuming that you have set the `ANDROID_HOME` variable as described above, simpl
 export PATH="$PATH:$ANDROID_HONE/platform-tools"
 ```
 
-# Links
-* http://stackoverflow.com/questions/17963508/how-to-install-android-sdk-build-tools-on-the-command-line
+## Links
+* [http://stackoverflow.com/questions/17963508/how-to-install-android-sdk-build-tools-on-the-command-line](http://stackoverflow.com/questions/17963508/how-to-install-android-sdk-build-tools-on-the-command-line)
 
 {% include links.html %}

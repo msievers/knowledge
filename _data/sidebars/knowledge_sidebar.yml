@@ -60,6 +60,14 @@ entries:
       url: /make_sublime_a_ruby_editor.html
       output: web
 
+  - title: Ubuntu
+    output: web
+    folderitems:
+
+    - title: Setup Ubuntu
+      url: /setup_ubuntu.html
+      output: web
+
   - title: Vim
     output: web
     folderitems:
