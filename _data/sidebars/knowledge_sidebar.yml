@@ -84,7 +84,7 @@ entries:
       url: /setup_nerdtree.html
       output: web
 
-  - title: Virtual Box
+  - title: VirtualBox
     output: web
     folderitems:
 
