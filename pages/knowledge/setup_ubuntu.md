@@ -10,12 +10,6 @@ For the usage within VirtualBox, you should consider using a Ubuntu derivate whi
 
 Another option would be to use the *server* version of Ubuntu, but having X11 around is usefull in some cases, e.g. for running the Android SDK manager interactivly.
 
-### TL;DR
-
-* Create a virtual machine for 64bit Linux with >= 2 GB RAM
-* Install the latest **Lubuntu** 64bit
-* Follow the [instructions](#install-guest-additions) to install guest additions
-
 ### Prerequisites
 
 * VirtualBox >= 5.1
@@ -51,10 +45,27 @@ Attach the *Lubuntu* iso image to the IDE controller.
 Start the virtual machine which should boot the attached iso image. Choose **Install Lubuntu** to run the installer instead of the live system, which would be started if *Try Lubuntu without installing* would have been selected.
 {% include image.html file="setup_ubuntu/setup_lubuntu_011.png" alt="Choose 'Install Lubuntu'" caption="Choose 'Install Lubuntu'" %}
 
-***to be continued***
+With *Lubuntu 16.04.1* there is a *glitch* with the installer that the window is to big to fit into the virtual screen. To be able to access the *Back* and *Continue* buttons, you have to move to window slightly to the left. 
+{% include image.html file="setup_ubuntu/setup_lubuntu_018.png" alt="Move to window to access to button" caption="Move the window to access the button" %}
 
 ### Install guest additions
 
-After installation succeeded, you should be able to boot to an LXDE based Xsession. Click the "Start" button 
+After installation succeeded, you should be able to boot to an LXDE based Xsession. Open a terminal by clicking
+
+* Start -> System Tools -> LXTerminal
+
+{% include image.html file="setup_ubuntu/setup_lubuntu_022_001.png" alt="Open a terminal" caption="Open a terminal" %}
+
+Install the virtual box guest additions from the official ubuntu repositories.
+
+```shell
+sudo apt-get install -y virtualbox-guest-dkms
+```
+
+Reboot the virtual machine for changes to take effect.
+
+```shell
+sudo reboot
+```
 
 {% include links.html %}
